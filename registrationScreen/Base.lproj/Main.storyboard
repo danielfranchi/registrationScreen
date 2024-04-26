@@ -74,6 +74,9 @@
                                 <state key="normal" title="Cadastre-se">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="tappedRegisterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8w-U8-VtH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -114,6 +117,12 @@
                             <constraint firstItem="8e3-i2-fSc" firstAttribute="top" secondItem="bqs-tp-i6z" secondAttribute="bottom" constant="15" id="zCl-SD-fdD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="hDd-1U-ngv" id="6dV-kJ-To3"/>
+                        <outlet property="nameTextField" destination="bqs-tp-i6z" id="FDK-0x-YMt"/>
+                        <outlet property="passwordTextField" destination="F4A-wH-qrF" id="4o4-9r-5eD"/>
+                        <outlet property="registerButton" destination="mpD-Ik-U5M" id="dOq-oj-pLm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
